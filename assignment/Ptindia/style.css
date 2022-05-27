@@ -380,11 +380,19 @@ footer h5{
         width: 90%;
     }
     .ball{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: fixed;
-        right: 10%;
-        bottom: 20%;
+        left:85%;
+        top: 80vh;
+      
         z-index: 1000;
-        width: 500px;
+        width: fit-content;
+    }
+    .ball img{
+        width: 30px;
+        height: 30px;
     }
 
 }
